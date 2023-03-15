@@ -1,0 +1,41 @@
+.header {
+    padding: 50px 0 50px 0;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__info-wrapper {
+        width: 716px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo-wrapper {
+        width: 187px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__button {
+        width: 155px;
+        height: 36px;
+        background: #018ABE;
+        border-radius: 3px;
+        border: none;
+        color:#fff;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 34px;
+
+    }
+    &__info-wrapper {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    &__logo-description {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+}

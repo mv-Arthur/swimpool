@@ -1,0 +1,29 @@
+.treners {
+    padding-bottom: 100px;
+    &__header {
+        margin-bottom: 40px;
+        font-weight: 700;
+        font-size: 42px;
+    }
+    &__wrapper {
+        background-color: #018ABE;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        width: 100%;
+        border-radius: 40px;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    &__photo {
+        width: 350px;
+        height: 250px;
+        border-radius:40px;
+    }
+    
+    &__info {
+        text-align: left;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+}

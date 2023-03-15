@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova_black.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova_regular.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proximanova_bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:'El Messiri';
+    src: url('fonts/ElMessiri-Bold.ttf');
+    font-weight: 700;
+}
+
+.container {
+    width: 1298px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #162831;
+    color: #fff;
+    font-family: 'Proxima Nova',sans-serif;
+}
+
+@import 'sass/header';
+@import 'sass/promo';
+@import 'sass/slider';
+@import 'sass/carousel';
+@import 'sass/about';
+@import 'sass/servises';
+@import 'sass/treners';
+@import 'sass/schedule';
+@import 'sass/reviews';
+@import 'sass/footer';
+@import 'sass/modalform';
+@import 'sass/login';
+

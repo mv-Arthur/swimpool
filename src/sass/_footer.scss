@@ -1,0 +1,33 @@
+.footer {
+    padding-bottom: 30px;
+    &__social {
+        width: 100px;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__btn-wrap {
+        display: flex;
+        align-items:center
+    }
+    &__subheader {
+        margin-right: 30px;
+    }
+
+    &__btn {
+        width: 170px;
+        height: 30px;
+        border: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-radius: 3px;
+        background: #018ABE;
+        color:#fff;
+        font-weight: 600;
+    }
+}

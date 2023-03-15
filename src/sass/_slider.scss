@@ -1,0 +1,35 @@
+.slider {
+    
+    &__button {
+        width: 16px;
+        height: 16px;
+        background: #7a7c80;
+        border-radius: 3px;
+        border: none;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    &__button.active {
+        background: #FFFFFF;
+
+    }
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+    &__slide {
+        margin-right: 20px;
+    }
+    &__img {
+        width: 350px;
+        height: 400px;
+        transition: 0.5s all;
+    }
+   
+    
+
+    &__text {
+        margin-top: 50px;
+    }
+    
+}

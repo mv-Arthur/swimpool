@@ -1,0 +1,50 @@
+.login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items:center;
+
+    form {
+        background-color:#018ABE;
+        border-radius:4px;
+        padding: 50px 20px 50px 20px;
+        width: 600px;
+        height: 400px;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2 {
+            font-size: 30px;
+        }
+        input {
+            height: 30px;
+            margin-bottom: 5px;
+            padding-left: 15px;
+        }
+       
+        
+    }
+    &__linkreg {
+        color:#fff;
+        font-weight: 900;
+    }
+    &__btn {
+        height: 40px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        border:none;
+        border-radius:4px;
+        text-transform: uppercase;
+        color:#018ABE;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 20%;
+        justify-content: space-between;
+    }
+
+}
